@@ -1,0 +1,33 @@
+{
+  "name": "@ether/node-red-contrib-base64",
+  "version": "1.0.0",
+  "description": "A Node-RED node to encode/decode data between Base64 and binary formats.",
+  "main": "base64.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "base64",
+    "node-red-node",
+    "encode",
+    "decode",
+    "binary"
+  ],
+  "author": {
+        "name": "Mateus Macedo Dos Anjos"
+    },
+    "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "base64": "base64.js"
+    }
+  },
+  "dependencies": {},
+  "maintainers": [
+        {
+            "name": "mateusmacedo",
+            "email": "macedodosanjosmateus@gmail.com"
+        }
+    ]
+}

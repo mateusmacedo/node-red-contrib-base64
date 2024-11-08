@@ -1,0 +1,25 @@
+{
+  "base64": {
+    "base64": "base64",
+    "label": {
+      "action": "Action",
+      "propertyPlaceholder": "Enter the property to encode/decode"
+    },
+    "convert": {
+      "buffer": "Convert Buffer <-> Base64",
+      "encode": "Encode as Base64",
+      "decode": "Convert Base64 to String"
+    },
+    "log": {
+      "nonbase64encode": "Not a Base64 string - maybe we should encode it..."
+    },
+    "warn": {
+      "cannothandle": "This node only handles strings or buffers.",
+      "noproperty": "No property found to process"
+    },
+    "error": {
+      "invalid": "Invalid Base64 string",
+      "nonbase64": "Not a valid Base64 string; expected Base64 format"
+    }
+  }
+}
